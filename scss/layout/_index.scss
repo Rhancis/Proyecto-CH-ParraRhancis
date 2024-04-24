@@ -1,0 +1,46 @@
+.contenedorindex {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 12px;  
+    background:$color-text;
+    margin: 8px auto;
+    height: 80%;
+    width: 90%;
+    
+    &__hijoindex1 img {
+     padding: 10px 10px;
+    }
+
+.textotejer {
+padding: 8px;   
+margin: 15px;
+color:$color-text-secondary;
+font-family: OpenSans, sans-serif;
+font-style: normal;
+text-align:justify;
+}
+
+    &__hijoindex2  {
+    padding: 20px;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:flex-start;
+    }
+    
+    .indeximage2-1 {
+    background-color:$color-text-secondary;
+    border-radius: 6px 0 8px 0;
+    }
+    
+    .indeximage2-2 p {
+    padding: 8px;
+    margin: 8px;
+    width: 50%;
+    background-color:$color-text-secondary;
+    border-radius: 6px 0 6px 0;
+    font-family: OpenSans, sans-serif;
+    font-style: normal
+    }
+}

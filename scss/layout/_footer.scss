@@ -1,0 +1,26 @@
+.contenedorfooter{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color:$color-text-tertiary;
+    
+    .footer-1 {
+        padding: 5px;
+        font-family: PlayfairDisplay;
+        font-weight: bold;
+        text-align: center;
+        }
+
+    .footer-2 ul {   
+        padding: 20px; 
+        margin: 10px;
+        border-radius: 8px;
+        background-color:$color-text-secondary;
+        list-style: none;
+        font-family: OpenSans;
+        font-size: medium;
+        text-align:start
+        }
+
+}

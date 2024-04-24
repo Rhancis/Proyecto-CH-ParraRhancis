@@ -1,0 +1,46 @@
+.navcontenedorProd{ 
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+.grid-container {
+    display: grid;
+    padding: 25px;
+    margin: 15px;
+    grid-template-columns: repeat(3,380px);
+    grid-template-rows:repeat(2,285px) ;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 8px;
+    row-gap: 20px;
+
+    .card {
+        background-color:$color-text; 
+        border-radius: 8px;
+    }   
+        
+      .cardtexts{    
+      padding:10px;
+      margin:8px; 
+      background-color:$color-text-secondary;
+      border-radius: 20px;
+      text-align: center; 
+      color:$color-text;
+      font-family:OpenSans;
+      font-weight:700
+      } 
+}
+
+
+
+
+
+
+
+
+  
+    
+
+ 

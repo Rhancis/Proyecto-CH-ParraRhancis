@@ -1,0 +1,20 @@
+.contenedornosotros{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 8px auto;
+    border:$color-text solid 0.5px; 
+    border-radius: 10px; 
+    height: 80%;
+    width: 90%;
+    
+  .nosotros {
+  padding: 20px;
+  margin: 8px;  
+  font-family: OpenSans;  
+  text-align: center;
+  align-items: center;
+  color:$color-text-tertiary;
+  }
+}

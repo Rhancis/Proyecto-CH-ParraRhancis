@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(../Assets/imgs/zoomdeco.jpg); 
+    }
+
+    header  {
+        margin: 0 8px;
+        padding: 10px 10px;
+        background-image: url(../Assets/imgs/bannerloa.png);
+        text-align: center;   
+        color:$color-text;
+        border-radius: 0 0 8px 8px;
+        }
+        nav ul li {
+            padding: 8px;
+            margin: 0 8px;  
+            list-style: none;
+            display: inline-block; 
+           
+          &__a {
+            font-family: OpenSans;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight:900;
+            font-size: medium;
+            color:$color-text;
+            }
+            }
+            a:hover {
+                padding: 8px;  
+                border-radius:20px;
+                background-color:$color-background;
+                }
+
+            
