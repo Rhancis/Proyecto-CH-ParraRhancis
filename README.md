@@ -1,2 +1,2 @@
-Ecommerce sobre artúculos elaborados en macramé y crochet.
+Ecommerce sobre artículos elaborados en macramé y crochet.
 Loa, entre hilos y colores.
